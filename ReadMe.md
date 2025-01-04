@@ -12,7 +12,7 @@ The following features will be added:
 ### Build Requirements
 Install the following environment specific requirements.
 #### Windows
-- [Visual Studio 2017](https://www.visualstudio.com/vs/community/)
+- [Visual Studio 2022](https://www.visualstudio.com/vs/community/)
 - [CMake](https://cmake.org/download/)
   
 **Note**: You must have at least WinUSB or Libusb drivers installed on at least the PS VR Control device in the device manager for windows. The PS VR Sensors device must at least have HID drivers or the WinUSB/Libusb drivers. Libpsvr provides information on how to do this.
