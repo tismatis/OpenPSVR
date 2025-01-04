@@ -23,7 +23,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 if (${CMAKE_C_SIZEOF_DATA_PTR} EQUAL 8) # 64-bit
         if(${CMAKE_SYSTEM_NAME} MATCHES "Windows") # Windows
                 download_external_dependency(libusb  ${ROOT_DIR}/deps https://github.com/libusb/libusb/releases/download/v1.0.22/libusb-1.0.22.7z)
-				download_external_dependency(libpsvr ${ROOT_DIR}/deps https://ci.appveyor.com/api/buildjobs/ltvwwd2omqy7vgpd/artifacts/build%2FWin64%2Flibpsvr%2Flibpsvr.zip)
+				download_external_dependency(libpsvr ${ROOT_DIR}/deps https://github.com/alatnet/libpsvr/releases/download/0.1/libpsvr-0.1.zip)
 				set(LIBPSVR_REQ_LIB ${THIRD_PARTY}/libpsvr/src/libpsvr/libpsvr.lib)
 				set(LIBPSVR_INCL_DIR ${THIRD_PARTY}/libpsvr/src/libpsvr)
 				set(LIBUSB_REQ_LIB ${THIRD_PARTY}/libusb/src/libusb/MS64/dll/libusb-1.0.lib)
