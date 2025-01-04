@@ -17,19 +17,19 @@
                     <platforms>all</platforms>
                     <distributionFileList>
                         <distributionDirectory>
-                            <origin>C:\Users\steph\Source\Repos\OpenPSVR\build\Win64\openpsvr\bin</origin>
+                            <origin>${env(USERPROFILE)}\Documents\GitHub\OpenPSVR\build\Win64\openpsvr\bin</origin>
                         </distributionDirectory>
                         <distributionDirectory>
-                            <origin>C:/Users/steph/Source/Repos/OpenPSVR/build/Win64/openpsvr/resources</origin>
+                            <origin>${env(USERPROFILE)}/Documents/GitHub/OpenPSVR/build/Win64/openpsvr/resources</origin>
                         </distributionDirectory>
                         <distributionFile>
-                            <origin>C:/Users/steph/Source/Repos/OpenPSVR/build/Win64/openpsvr/driver.vrdrivermanifest</origin>
+                            <origin>${env(USERPROFILE)}/Documents/GitHub/OpenPSVR/build/Win64/openpsvr/driver.vrdrivermanifest</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>C:/Users/steph/Source/Repos/OpenPSVR/driver/unregister-driver.bat</origin>
+                            <origin>${env(USERPROFILE)}/Documents/GitHub/OpenPSVR/driver/unregister-driver.bat</origin>
                         </distributionFile>
                         <distributionFile>
-                            <origin>C:/Users/steph/Source/Repos/OpenPSVR/driver/register-driver.bat</origin>
+                            <origin>${env(USERPROFILE)}/Documents/GitHub/OpenPSVR/driver/register-driver.bat</origin>
                         </distributionFile>
                     </distributionFileList>
                     <shortcutList>
